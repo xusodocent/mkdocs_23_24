@@ -1,0 +1,117 @@
+site_name: DESENVOLUPAMENT WEB EN ENTORN CLIENT - 2DAWsp - Xuso Ortí
+nav:
+  - Presentació: presentació.md
+  - UD0:
+    - UD0 Eines de Programació: DWEC_UD0_Eines_Programació_tema.md
+    - Pràctiques Unitat:
+      - UD0 Pràctica Git: DWEC_UD0_Pr_Git.md
+  - UD1:
+    - UD1 Javascript Introducció: DWEC_UD1_Javascript_Introducció.md
+    - Pràctiques Unitat:
+      - UD1 Pràctica Operadors: pràctica_operadors.md
+      - UD1 Pràctica Arrays: pràctica_arrays.md
+      - UD1 Pràctica JS bàsic: practicaJSbasic.md
+  - UD2 Interacció amb usuari:
+    - UD2 Javascript DOM: DWEC_UD2_Javascript_DOM.md
+    - UD2 Javascript Events: DWEC_UD2_Javascript_Events.md
+    - UD2 Javascript Formularis: DWEC_UD2_formularis.md
+    - Pràctiques Unitat:
+      - UD2 Pràctica DOM: UD2_Prac_DOM.md 
+      - UD2 Pràctica Events: UD2_Prac_Events.md
+      - UD2 Pràctica Formularis: DWEC_UD2_Prac_formularis.md
+    - Exemples unitat:
+      - UD2 Codis d'exemple: DWEC_UD2_exemples_extra.md
+  - BOM:
+    - BOM: DWEC_BOM.md
+  - Projecte Av1:
+    - Enunciat: DWEC_Projecte_av1.md
+  - UD4 Utilitats Extra:
+    - UD4 Javascript Utilitats: DWEC_UD4_utilitats_extra.md
+    - Pràctiques Unitat:
+      - Pràctica Utilitats Extra: DWEC_UD4_utilitats_extra_pr.md
+    - UD4 Codis Exemple: DWEC_UD4_codis_extra.md
+  - UD5 AJAX:
+    - UD5 AJAX Teoria: DWEC_UD5_teoria_ajax.md
+    - UD5 AJAX Peticions: DWEC_UD5_peticions_ajax.md
+    - UD5 AJAX en Promeses: DWEC_UD5_promeses.md
+    - UD5 AJAX exemple: DWEC_UD5_exemple_ajax.md
+    - Pràctiques unitat:
+      - Pràctica AJAX bàsica: DWEC_UD5_prac_ajax.md
+  - UD6 VUE3:
+    - Apunts del tema:
+      - Primers passos: DWEC_UD6_VUE_1rs_passos.md
+      - Data binding: DWEC_UD6_vue_databinding.md
+      - Pas de dades: DWEC_UD6_vue_pas_dades.md
+      - Cicle de vida: DWEC_UD6_vue_cicle_vida.md
+      - Directives de renderitzat: DWEC_UD6_vue_renderitzat_directives.md
+    - Pràctiques del tema: DWEC_UD6_vue_tutorials_neoguias.md
+  - UD7 Vue Router:
+    - Apunts del tema:
+      - El router de Vue: DWEC_UD7_vue_router.md
+    - Codis extra:
+      - Exemples de codi: DWEC_UD7_codis_extra.md
+  - Fake API:
+    - Apunts del tema: DWEC_json_serve.md
+  - UD8 API REST en VUE:
+    - Apunts del tema: 
+      - API RESTful: DWEC_UD8_api_rest_vue.md
+      - Aplicació d'exemple: DWEC_UD8_app_exemple.md
+theme:
+  name: material
+  palette:
+    primary: purple
+  features:
+    - navigation.tabs
+    - content.code.copy
+  logo: img/logocap.png
+  theme:
+  language: ca
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+
+
+        name: Format oscur
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Format clar
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+  logo: img/logocap.png
+  theme:
+    icon:
+      admonition:
+        note: fontawesome/solid/note-sticky
+        abstract: fontawesome/solid/book
+        info: fontawesome/solid/circle-info
+        tip: fontawesome/solid/bullhorn
+        success: fontawesome/solid/check
+        question: fontawesome/solid/circle-question
+        warning: fontawesome/solid/triangle-exclamation
+        failure: fontawesome/solid/bomb
+        danger: fontawesome/solid/skull
+        bug: fontawesome/solid/robot
+        example: fontawesome/solid/flask
+        quote: fontawesome/solid/quote-left
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      auto_title: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
